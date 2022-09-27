@@ -1,8 +1,21 @@
 # uniapp项目快速开发模版
+# 使用
++ 复制模版
+```bash
+npx degit wukuy/uniapp-quick-dev my-project
+```
++ 安装依赖
+```bash
+npm i
+```
 
-# 使用模版
++ 开发
+```bash
+npm run dev:h5
+```
 
 # 技术栈
+ Vite + Vue3 + uView 
 
 # 功能
 + 多环境
@@ -21,8 +34,3 @@
 + Page组件
     + 页面标准化，定义页面头、页面内容、页面顶部
 + Scroll(下拉刷新，上拉加载)
-
-# 目录结构说明
-```bash
-npx degit git@gitee.com:wukuy123/uniapp-quick-dev.git xxx-project
-```
