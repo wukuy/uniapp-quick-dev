@@ -15,7 +15,7 @@ npm run dev:h5
 ```
 
 # 技术栈
- Vite + Vue3 + uView 
+ Vite + Vue3 + uView 2.x
 
 # 功能
 + 多环境
