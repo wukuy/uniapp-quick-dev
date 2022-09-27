@@ -1,6 +1,6 @@
 # uniapp项目快速开发模版
 # 使用
-复制模版
+使用模版
 ```bash
 npx degit wukuy/uniapp-quick-dev my-project
 ```
