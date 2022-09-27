@@ -1,15 +1,15 @@
 # uniapp项目快速开发模版
 # 使用
-+ 复制模版
+复制模版
 ```bash
 npx degit wukuy/uniapp-quick-dev my-project
 ```
-+ 安装依赖
+安装依赖
 ```bash
 npm i
 ```
 
-+ 开发
+开发
 ```bash
 npm run dev:h5
 ```
