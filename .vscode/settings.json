@@ -1,0 +1,13 @@
+{
+    "vite.autoStart": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+    "eslint.validate": [
+        "javascript",
+        "vue",
+        "html"
+    ],
+    "vue-i18n.i18nPaths": ""
+  }
+  
