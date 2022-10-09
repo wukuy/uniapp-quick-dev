@@ -1,6 +1,6 @@
 # uniapp项目快速开发模版
 # 使用
-复制模版
+使用模版
 ```bash
 npx degit wukuy/uniapp-quick-dev my-project
 ```
@@ -15,7 +15,7 @@ npm run dev:h5
 ```
 
 # 技术栈
- Vite + Vue3 + uView 
+ Vite + Vue3 + uView 2.x
 
 # 功能
 + 多环境

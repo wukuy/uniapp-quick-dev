@@ -1,6 +1,6 @@
 import { toQuery } from './utils'
+import { API_URL } from './app.config'
 
-const ApiUrl = import.meta.env.VITE_API_URL
 const SuccessCode = 200
 
 /**
@@ -32,7 +32,7 @@ export default function request({ url, data = {}, header, raw, showToast = true,
         }
 
         uni[upload ? 'uploadFile' : 'request']({
-            url: new URL(url, ApiUrl).href,
+            url: new URL(url, API_URL).href,
             data,
             // 文件上传特有参数
             name,
