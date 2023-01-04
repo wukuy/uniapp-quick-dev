@@ -66,6 +66,6 @@ module.exports = {
     },
     globals: {
         uni: 'writable',
-        getCurrentPages: true
+        $go: true
     }
 }
