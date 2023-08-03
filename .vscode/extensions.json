@@ -1,11 +1,12 @@
 {
-    "recommendations": [
-      "antfu.vite",
-      "dbaeumer.vscode-eslint",
-      "vue.volar",
-      "lokalise.i18n-ally",
-      "streetsidesoftware.code-spell-checker",
-      "dlhtx.uniapp-snippet",
-      "modyqyw.vscode-uni-helper"
-    ]
-  }
+  "recommendations": [
+    "antfu.vite",
+    "dbaeumer.vscode-eslint",
+    "vue.volar",
+    "lokalise.i18n-ally",
+    "streetsidesoftware.code-spell-checker",
+    "dlhtx.uniapp-snippet",
+    "uni-helper.uni-helper-vscode",
+    "mrmaoddxxaa.create-uniapp-view"
+  ]
+}
