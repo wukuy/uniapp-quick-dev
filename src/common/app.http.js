@@ -31,7 +31,7 @@ export default function request({ url, data = {}, header, raw, showToast = true,
             url = toQuery(params, url)
         }
 
-        const http = upload ? uni.uploadFile : upload.request
+        const http = upload ? uni.uploadFile : uni.request
 
         http({
             url: new URL(url, API_URL).href,
