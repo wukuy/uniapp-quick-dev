@@ -32,7 +32,7 @@
             <slot />
         </view>
         <view :class="classPrefix + '-footer'" :style="footerStyles">
-            <PageFooter @bottom-height-change="botomHeightChange">
+            <PageFooter @bottom-height-change="bottomHeightChange">
                 <slot name="footer" />
             </PageFooter>
         </view>

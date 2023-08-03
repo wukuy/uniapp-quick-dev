@@ -31,7 +31,9 @@ export default function request({ url, data = {}, header, raw, showToast = true,
             url = toQuery(params, url)
         }
 
-        upload ? uni.uploadFile ? upload.request({
+        const http = upload ? uni.uploadFile : upload.request
+
+        http({
             url: new URL(url, API_URL).href,
             data,
             // 文件上传特有参数
