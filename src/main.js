@@ -1,12 +1,14 @@
 import { createSSRApp } from 'vue'
 import App from './App.vue'
-import uViewPlus from 'uview-plus'
+import uviewPlus, { setConfig } from 'uview-plus'
 import go from '@/plugins/go'
+
+setConfig({})
 
 export function createApp() {
     const app = createSSRApp(App)
 
-    app.use(uViewPlus)
+    app.use(uviewPlus)
     app.use(go)
 
     return {

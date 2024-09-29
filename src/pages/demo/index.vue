@@ -20,7 +20,7 @@
 import { getList, upload } from '@/models/home.js'
 
 export default {
-    async data() {
+    data() {
         return {
             title: 'Hello',
             img: ''
